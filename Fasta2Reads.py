@@ -1,7 +1,9 @@
 import random
 import sys
 
-input_file = str(input("Enter the name of the input file : "))
+#User input
+input_file = "test.fasta"
+#input_file = str(input("Enter the name of the input file : "))
 loop = int(input("Enter the number of loops you want to run (the more loops the better and bigger the file): "))
 loop = loop - 1
 
