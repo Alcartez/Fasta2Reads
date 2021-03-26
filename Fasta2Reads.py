@@ -3,8 +3,9 @@ import sys
 
 #User input
 input_file = "test.fasta"
+loop = 100
 #input_file = str(input("Enter the name of the input file : "))
-loop = int(input("Enter the number of loops you want to run (the more loops the better and bigger the file): "))
+#loop = int(input("Enter the number of loops you want to run (the more loops the better and bigger the file): "))
 loop = loop - 1
 
 fasta = []
